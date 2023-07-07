@@ -1,8 +1,14 @@
+import Categorias from "./components/Categorias";
+import SobreNosotros from "./components/Nosotros";
+import Productos from "./components/Productos";
+
 function Main() {
   return (
-    <div>
-      <h1>Main</h1>
-    </div>
+    <main>
+      <Categorias />
+      <SobreNosotros />
+      <Productos />
+    </main>
   );
 }
 

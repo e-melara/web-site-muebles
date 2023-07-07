@@ -2,7 +2,7 @@ import { NavContainer } from "./styles";
 function Navegacion() {
   return (
     <NavContainer>
-      <nav>
+      <nav className="contenedor">
         <a href="#">Inicio</a>
         <a href="#">Nosotros</a>
         <a href="#">Tienda</a>

@@ -1,7 +1,6 @@
 import Logo from "./components/Logo";
 import Navegacion from "./components/Nav";
 
-import heroImg from "../../assets/img/principal.jpg";
 import { HeroContainer } from "./components/styles";
 
 function Header() {
@@ -9,7 +8,7 @@ function Header() {
     <header>
       <Logo />
       <Navegacion />
-      <HeroContainer img={heroImg} />
+      <HeroContainer img={"./img/principal.jpg"} />
     </header>
   );
 }
