@@ -1,14 +1,14 @@
 import PropTypes from "prop-types";
 
-import { CategoriaContainer } from "../styles";
-
 function Categoria(props) {
   const { img, link } = props;
   return (
-    <CategoriaContainer>
+    <aside>
       <img src={img} alt={img} />
-      <a href={link.href}>{link.text}</a>
-    </CategoriaContainer>
+      <a className="title" href={link.href}>
+        {link.text}
+      </a>
+    </aside>
   );
 }
 

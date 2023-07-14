@@ -2,8 +2,8 @@ import { SobreNosotrosContainer } from "../styles";
 
 function Nosotros() {
   return (
-    <SobreNosotrosContainer>
-      <div className="nosotros-grid">
+    <SobreNosotrosContainer img="./public/img/nosotros.jpg">
+      <div className="nosotros-grid contenedor">
         <div className="texto">
           <h2>Sobre Nosotros</h2>
           <p>

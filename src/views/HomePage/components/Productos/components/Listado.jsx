@@ -1,7 +1,7 @@
 import Producto from "./Producto";
 
 import { ProductosContainer } from "../../styles";
-import { productos } from "../../../../../data/metadata";
+import { productos } from "@/data/metadata";
 
 function Listado() {
   return (

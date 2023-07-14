@@ -1,11 +1,11 @@
 import FooterNav from "./NavFooter";
 import { FooterContainer } from "./styles";
-import { footerLinks } from "../../data/metadata";
+import { footerLinks } from "@/data/metadata";
 
 function Footer() {
   return (
     <FooterContainer>
-      <div className="grid">
+      <div className="grid contenedor">
         {footerLinks.map((nav, index) => (
           <FooterNav key={index} {...nav} />
         ))}

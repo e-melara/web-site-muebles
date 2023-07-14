@@ -1,13 +1,9 @@
-import Main from "./components/Main";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
+import HomePage from "@/views/HomePage";
 
 function App() {
   return (
     <>
-      <Header />
-      <Main />
-      <Footer />
+      <HomePage />
     </>
   );
 }

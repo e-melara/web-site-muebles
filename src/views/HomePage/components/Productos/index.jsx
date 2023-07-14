@@ -2,7 +2,7 @@ import Listado from "./components/Listado";
 
 function Productos() {
   return (
-    <div>
+    <div className="contenedor">
       <h1>Nuestros Productos</h1>
       <Listado />
     </div>
